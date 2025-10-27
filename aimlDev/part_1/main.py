@@ -11,7 +11,7 @@ def initialize_llm_client():
     
     try:
         
-        api_key = os.environ["GOOGLE_API_KEY"] = "AIzaSyCtc7OovMoq_jXyR-wABg99DR0q05mxkwI"
+        api_key = os.environ["GOOGLE_API_KEY"] = "My_key"
         if not api_key:
             raise ValueError("API key not found. Set the GOOGLE_API_KEY environment variable.")
         
@@ -95,4 +95,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
